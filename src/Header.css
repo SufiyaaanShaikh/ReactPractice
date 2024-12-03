@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 4em;
+    background: rgb(139 92 246 );
+    color: #fff;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100px;
+    left: -100%;
+    top: 0;
+    height: 100vh;
+    transition: 0.5s;
+    text-align: left;
+    gap: 15px;
+    background: yellow;
+}
+.activeMenu {
+    left: 0%;
+}
+.title {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.title img {
+    width: 80px;
+    filter: invert(1);
+}
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 30px;
+    height: 2em;
+}

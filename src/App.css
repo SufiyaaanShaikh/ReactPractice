@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+  background: rgb(228 242 254);
+}
+
+.App .container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.App .container .block {
+  height: 200px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+}
+
+.App .container .block div {
+  font-size: 14px;
+}
+
+.App .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+.App .btns button,
+.callDost {
+  padding: 1em 2em;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.count {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0;
+  text-align: center;
+}
+
+.callDost {
+  text-align: center;
+  display: block;
+  margin: 2em auto;
+
+}
+
+.password {
+  font-size: 16px;
+  background: #61dafb;
+  margin: 1em 0;
+  text-align: center;
+  padding: 15px 10px;
+  border-radius: 10px;
+
+}
+
+.header button {
+  background-color: #4CAF50;
+  cursor: pointer;
+  margin: 0 !important;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.faqouter {
+  display: grid;
+  gap: 1.5em;
+}
+
+.faqItems {
+  max-width: 1300px;
+  background-color: #4CAF50;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 100%;
+
+}
+
+.faqItems h2 {
+  text-align: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.faqItems p {
+  height: 0;
+  transform: scaleY(0);
+  padding: 0px;
+  overflow: hidden;
+  text-align: left;
+  transition: 0.5s;
+}
+
+.activeAns {
+  height: auto !important;
+  transform: scaleY(1) !important;
+  padding: 10px !important;
+}
+.tabsOuter h1 {
+  text-align: left;
+  margin-bottom: 1em;
+}
+.tabsOuter ul {
+  List-style: none;
+  margin: 0px;
+  gap: 10px;
+  padding: 0px;
+  display: flex;
+}
+
+.tabsOuter ul li button {
+  background: #e4e4e4;
+  color: #343a40;
+  padding: 0.5rem 20px;
+  margin-right: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.tabsOuter p {
+  padding: 10px;
+  text-align: left;
+
+}
+
+
+.footer {
+  background-color: #f0f0f0;
+  padding: 100px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+
+}
